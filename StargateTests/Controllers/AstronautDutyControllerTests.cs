@@ -23,7 +23,7 @@ namespace StargateAPI.Tests.Controllers
         public async Task GetAstronautDutiesByName_ReturnsOk_WhenMediatorReturnsSuccess()
         {
             // Arrange
-            var name = "JonasQuinn";
+            var name = "Jonas Quinn";
             var response = new GetPersonByNameResult
             {
                 Success = true,

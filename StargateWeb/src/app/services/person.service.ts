@@ -24,7 +24,7 @@ export interface PersonDto {
   providedIn: 'root'
 })
 export class PersonService {
-  private readonly apiUrl = `https://localhost:4200/Person`;
+  private readonly apiUrl = `https://localhost:7204/Person`;
 
   constructor(private http: HttpClient) { }
 
