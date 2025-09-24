@@ -15,7 +15,6 @@ import { Astronaut, JobDetail } from '../../app.component';
       
       <div class="job-content">
         <div *ngIf="!selectedAstronaut" class="empty-state">
-          <div class="empty-icon">🔍</div>
           <p>Select an astronaut to view their job details</p>
         </div>
         
